@@ -1,0 +1,31 @@
+{
+  "name": "qt-project-creator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "start-default": "node main.js --init"
+  },
+  "type": "module",
+  "keywords": [
+    "automation",
+    "cli",
+    "cpp-build-tools",
+    "c++",
+    "qt5",
+    "qt6",
+    "qmake",
+    "cmake"
+  ],
+  "author": "Raj Kashyap",
+  "license": "MIT",
+  "description": "A CLI tool to set up a Qt project structure with CMake or QMake",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "figlet": "^1.7.0",
+    "inquirer": "^10.1.8",
+    "zx": "^8.1.4"
+  }
+}
