@@ -41,7 +41,7 @@ qt-project-creator
 The tool creates the following structure:
 
 ```
-│ project-name/
+|project-name/
 │
 ├── headers/
 │ └── widget.h
